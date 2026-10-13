@@ -12,7 +12,7 @@ W katalogu instalacji MagicMirror²:
 
 ```bash
 cd ~/MagicMirror/modules
-git clone <URL_TWOJEGO_REPOZYTORIUM> MMM-KrakowMPK
+git clone https://github.com/mielu007/MMM-KrakowMPK
 cd MMM-KrakowMPK
 npm install --omit=dev
 ```

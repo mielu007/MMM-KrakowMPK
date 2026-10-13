@@ -1,0 +1,61 @@
+.krakowmpk {
+  min-width: 300px;
+  max-width: 520px;
+  color: #fff;
+  font-size: 19px;
+  line-height: 1.25;
+}
+.krakowmpk-header {
+  font-size: 24px;
+  font-weight: 600;
+  border-bottom: 1px solid rgba(255,255,255,.35);
+  padding-bottom: 7px;
+  margin-bottom: 5px;
+}
+.krakowmpk-status, .krakowmpk-footer {
+  color: #aaa;
+  font-size: 13px;
+  margin: 5px 0;
+}
+.krakowmpk-table {
+  border-collapse: collapse;
+  width: 100%;
+}
+.krakowmpk-table tr {
+  border-bottom: 1px solid rgba(255,255,255,.12);
+}
+.krakowmpk-table td {
+  padding: 7px 4px;
+  vertical-align: middle;
+}
+.krakowmpk-line {
+  font-size: 21px;
+  font-weight: 700;
+  text-align: center;
+  min-width: 42px;
+  color: #fff;
+}
+.krakowmpk-details { min-width: 150px; }
+.krakowmpk-destination {
+  font-size: 17px;
+  max-width: 245px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.krakowmpk-times {
+  color: #bbb;
+  font-size: 13px;
+  margin-top: 3px;
+}
+.krakowmpk-delay {
+  text-align: right;
+  white-space: nowrap;
+  font-size: 14px;
+  font-weight: 600;
+  min-width: 58px;
+}
+.krakowmpk-delay.late { color: #ff7777; }
+.krakowmpk-delay.early { color: #79c8ff; }
+.krakowmpk-delay.ontime { color: #8ce0a1; }
+.krakowmpk-delay.scheduled { color: #aaa; font-weight: 400; }

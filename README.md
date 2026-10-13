@@ -7,7 +7,7 @@ rozkład z GTFS oraz opóźnienia na żywo z GTFS-Realtime (`TripUpdates`).
 
 ```bash
 cd ~/MagicMirror/modules
-git clone <URL_TWOJEGO_REPOZYTORIUM> MMM-KrakowMPK
+git clone (https://github.com/mielu007/MMM-KrakowMPK
 ```
 
 Moduł **nie ma zależności** (nie trzeba `npm install`). Jeśli masz w katalogu stary `node_modules`
